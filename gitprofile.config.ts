@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['remla24-team7/operation', 'remla24-team7/model-training'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['kvta1/RO47002','kvta1/LeagueOfLegendsBot', 'remla24-team7/operation', 'remla24-team7/model-training'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,36 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Delft Hyperloop',
+          description:
+            'As Lead Thermal Management at Delft Hyperloop I lead a department of three engineers to design, produce and test a thermal management system for a Hyperloop system. I was responsible for all technical integration with different partments within Delft Hyperloo',
+          imageUrl:
+            '/images/DH07_pod_reveal.jpeg',
+          link: 'https://www.delfthyperloop.nl/',
+        },
+        {
+          title: 'ESA Vacuum test',
+          description:
+            'With Delft Hyperloop I had the unique privilege of overseeing a vacuum test of our Hyperloop prototype at ESTECs Phenix Thermal Vacuum chamber, in collaboration with ESA. My responsiblity was to ensure safe performance of our prototype in vacuum.',
+          imageUrl:
+            '/images/kevin_esa.jpg',
+          link: 'https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Test_centre/Phenix_Thermal_Vacuum_Chamber',
+        },
+        {
           title: 'Multidisciplinary Project Robotics',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'During my master I worked in a multidisciplinary team to develop a robotic solution for a barn-cleaning robot. We implemented a ROS based solution containing global and local planning, computer vision and manipulation nodes.',
           imageUrl:
             '/images/MDP_group_photo.jpg',
           link: '',
         },
         {
-          title: 'Project Name',
+          title: 'Thesis: Robotic rowing boat',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'For my Bachelor thesis we developed and tested a robotic rowing robot to study the hydrodynamics of different rowing oar angles. Our measurements show a 0.4% increase in rowing speed with a forward tilted oar blade.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '/images/BEP_completepicture.JPEG',
+          link: 'https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1109494/full',
         },
       ],
     },
