@@ -68,9 +68,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Kevin Tran',
+    description: 'Hi there, welcome to my portfolio. I am a Robotics student at TU Delft with a passion for robotics and AI. I am currently working as a Teaching Support Assistant at TU Delft was previous Lead Thermal Management at Delft Hyperloop.',
+    imageURL: '/images/Personal_picture.jpeg',
   },
   social: {
     linkedin: 'kevin-tran-734997218',
