@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Delft Hyperloop',
           description:
-            'As Lead Thermal Management at Delft Hyperloop I lead a department of three engineers to design, produce and test a thermal management system for a Hyperloop system. I was responsible for all technical integration with different partments within Delft Hyperloo',
+            'As Lead Thermal Management at Delft Hyperloop I lead a department of three engineers to design, produce and test a thermal management system for a Hyperloop system. I was responsible for all technical integration with different departments within Delft Hyperloop to ensure a good performance at the European Hyperloop Week competition.',
           imageUrl:
             '/images/DH07_pod_reveal.jpeg',
           link: 'https://www.delfthyperloop.nl/',
@@ -51,10 +51,10 @@ const CONFIG = {
         {
           title: 'Multidisciplinary Project Robotics',
           description:
-            'During my master I worked in a multidisciplinary team to develop a robotic solution for a barn-cleaning robot. We implemented a ROS based solution containing global and local planning, computer vision and manipulation nodes.',
+            'During my master I worked in a multidisciplinary team to develop a robotic solution for a barn-cleaning robot. We implemented a ROS based solution containing global and local planning, computer vision and manipulation ROS nodes.',
           imageUrl:
             '/images/MDP_group_photo.jpg',
-          link: '',
+          link: 'https://youtu.be/QRBsXTV7ERE',
         },
         {
           title: 'Thesis: Robotic rowing boat',
