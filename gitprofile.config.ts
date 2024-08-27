@@ -51,7 +51,7 @@ const CONFIG = {
         {
           title: 'Multidisciplinary Project Robotics',
           description:
-            'During my master I worked in a multidisciplinary team to develop a robotic solution for a barn-cleaning robot. We implemented a ROS based solution containing global and local planning, computer vision and manipulation ROS nodes.',
+            'During my master I worked in a multidisciplinary team to develop a robotic solution for a barn-cleaning robot. We implemented a ROS based solution containing SLAM, global and local planning, computer vision and manipulation ROS nodes.',
           imageUrl:
             '/images/MDP_group_photo.jpg',
           link: 'https://youtu.be/QRBsXTV7ERE',
