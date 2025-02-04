@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Robotics intern @ SAM XL',
+          description:
+            'As a robotics intern at SAM XL I developed a ROS2 based solution for autonomous end effector detachment of a large-scale gantry robot in Gazebo.',
+          imageUrl:
+            '/images/samxl_gantry.jpg',
+          link: 'https://samxl.tudelftcampus.nl/nl/',
+        },
+        {
           title: 'Delft Hyperloop',
           description:
             'As Lead Thermal Management at Delft Hyperloop I lead a department of three engineers to design, produce and test a thermal management system for a Hyperloop system. I was responsible for all technical integration with different departments within Delft Hyperloop to ensure a good performance at the European Hyperloop Week competition.',
@@ -100,10 +108,10 @@ const CONFIG = {
   },
   skills: [
     'Python',
-    'ROS',
+    'ROS2',
+    'Gazebo',
     'Pytorch',
     'Jax',
-    'OpenAI Gym',
     'Docker',
     'DevOps',
     'C++',
@@ -115,6 +123,13 @@ const CONFIG = {
       from: 'November 2023',
       to: 'Present',
       companyLink: 'https://www.tudelft.nl/teaching-support',
+    },
+    {
+      company: 'SAM XL',
+      position: 'Robotics intern',
+      from: 'September 2024',
+      to: 'January 2025',
+      companyLink: 'https://samxl.tudelftcampus.nl/nl/',
     },
     {
       company: 'Delft Hyperloop',
