@@ -36,8 +36,8 @@ const CONFIG = {
           title: 'MSc thesis: "Increasing robot effective workspace through tool use"',
           description:
             'Built a full TAMP (Task and Motion Planning) stack (ROS2 Humble, PlanSys2/PDDL, BehaviorTree.CPP, MoveIt2) enabling a Franka Emika Panda arm to autonomously grasp and use tools to extend its reachable workspace.',
-          // imageUrl:
-          //   '/images/samxl_gantry.jpg',
+          imageUrl:
+            '/images/thesis_demo_thumbnail.png',
           link: 'https://youtu.be/ThVuKbUvxpE',
         },
         {
@@ -116,13 +116,14 @@ const CONFIG = {
   },
   skills: [
     'Python',
-    'ROS2',
-    'Gazebo',
-    'Pytorch',
-    'Jax',
-    'Docker',
-    'DevOps',
     'C++',
+    'ROS2',
+    'MoveIt2',
+    'MuJoCo',
+    'Pytorch',
+    'OpenCV',
+    'Docker',
+    'Linux',
   ],
   experiences: [
     {
