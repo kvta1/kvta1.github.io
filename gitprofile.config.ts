@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'MSc thesis: "Increasing robot effective workspace through tool use"',
+          description:
+            'Built a full TAMP (Task and Motion Planning) stack (ROS2 Humble, PlanSys2/PDDL, BehaviorTree.CPP, MoveIt2) enabling a Franka Emika Panda arm to autonomously grasp and use tools to extend its reachable workspace.',
+          // imageUrl:
+          //   '/images/samxl_gantry.jpg',
+          link: 'https://youtu.be/ThVuKbUvxpE',
+        },
+        {
           title: 'Robotics intern @ SAM XL',
           description:
             'As a robotics intern at SAM XL I developed a ROS2 based solution for autonomous end effector detachment of a large-scale gantry robot in Gazebo.',
