@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['kvta1/RO47002','kvta1/LeagueOfLegendsBot', 'remla24-team7/operation', 'remla24-team7/model-training'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['kvta1/Tool_use_ROS', 'kvta1/panda_perception', 'remla24-team7/operation', 'remla24-team7/model-training'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
